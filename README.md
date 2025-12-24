@@ -53,7 +53,7 @@ Includes a modern layout with multiple sections and a mobile-friendly navigation
 ## 📁 Project Structure
 
 ```txt
-Website-Template-main/
+cleanlanding-template/
 ├─ index.html
 ├─ css/
 │  ├─ normalize.css
