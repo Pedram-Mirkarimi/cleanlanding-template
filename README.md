@@ -1,25 +1,124 @@
-# CleanLanding — Responsive Landing Page (Learning Project)
+<div align="center">
 
-> Learning / practice project (Lern-/Übungsprojekt).  
-> Built while practicing **HTML/CSS/JavaScript** fundamentals for my **Ausbildung (FIAE) application**.
+# 🌐 CleanLanding — Responsive Website Template
 
-A lightweight, responsive landing page template with a simple layout and a mobile-friendly navigation toggle.
+A lightweight and responsive **static website template** built with **HTML/CSS/JavaScript**.  
+Includes a modern layout with multiple sections and a mobile-friendly navigation toggle.
 
-## Features (core)
-- Responsive layout (desktop/mobile)
-- Multi-section landing page
-- Simple navigation toggle
+<br/>
 
-## Tech
-- HTML, CSS, JavaScript
+![HTML5](https://img.shields.io/badge/HTML5-Structure-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-Styling-1572B6?logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-Interactivity-F7DF1E?logo=javascript&logoColor=000)
+![Responsive](https://img.shields.io/badge/Responsive-Yes-success)
+![FontAwesome](https://img.shields.io/badge/Font%20Awesome-Icons-528DD7?logo=fontawesome&logoColor=white)
 
-## Quick start
-- Open `index.html` in your browser  
-  or
-- Use a simple local server (optional)
+</div>
 
-## Screenshots
+---
+
+## 📌 Table of Contents
+- [✨ Features](#features)
+- [🧰 Tech Stack](#tech-stack)
+- [📁 Project Structure](#project-structure)
+- [🚀 Getting Started](#getting-started)
+- [🖼️ Screenshots](#screenshots)
+- [🎨 Customization](#customization)
+- [👤 Author](#author)
+
+---
+
+<a id="features"></a>
+## ✨ Features
+- 📱 Fully responsive layout
+- 🧭 Navigation with **mobile toggle** (JS)
+- 🧱 Grid-based styling (custom grid stylesheet)
+- ⭐ Font Awesome icons included via CDN
+- 🧩 Multiple page sections:
+  - `welcome`, `works`, `services`, `projects`, `contact`
+
+---
+
+<a id="tech-stack"></a>
+## 🧰 Tech Stack
+
+| Category | Technology |
+|---|---|
+| Structure | HTML5 |
+| Styling | CSS3 (normalize + grid + main styles) |
+| Interactivity | Vanilla JavaScript |
+| Icons | Font Awesome CDN |
+
+---
+
+<a id="project-structure"></a>
+## 📁 Project Structure
+
+```txt
+cleanlanding-template/
+├─ index.html
+├─ css/
+│  ├─ normalize.css
+│  ├─ grids.css
+│  └─ style.css
+├─ scripts/
+│  └─ main.js
+└─ images/
+   ├─ banner.jpg
+   ├─ logo.png
+   └─ (1.jpg ... 7.jpg)
+````
+
+---
+
+<a id="getting-started"></a>
+
+## 🚀 Getting Started
+
+### ✅ Run locally
+
+No build tools needed. Just open `index.html` in your browser.
+
+**macOS / Linux**
+
+```bash
+open index.html
+```
+
+**Windows**
+
+```bat
+start index.html
+```
+
+### 🔥 Recommended (Live Reload)
+
+Use VS Code extension **Live Server** for hot reload while editing.
+
+---
+
+<a id="screenshots"></a>
+
+## 🖼️ Screenshots
+
 ![Template](https://github.com/user-attachments/assets/62f70540-f392-49b6-9d5a-c97cbdbd6521)
 
-## Notes
-This is a learning project and not intended as a production-ready template.
+---
+
+<a id="customization"></a>
+
+## 🎨 Customization
+
+* Update content and sections in: `index.html`
+* Update styling in: `css/style.css`
+* Replace images in: `images/`
+* Navigation / mobile toggle logic: `scripts/main.js`
+
+---
+
+<a id="author"></a>
+
+## 👤 Author
+
+**S. AmirMohammad Mirkarimi**
+GitHub: [S-AmirMohammad-Mirkarimi](https://github.com/S-AmirMohammad-Mirkarimi)
